@@ -1,6 +1,8 @@
 ## We create two functions to optimize the operation of inverse one matrix
 
 ## We make an object to store the inverse of the matrix 
+## a simple skeleton of the matrix.
+
 makeCacheMatrix <- function(x = matrix()) {
 
 
@@ -16,19 +18,10 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse=setInverse,
        getInverse=getInverse)
   
-  
-
-
-
-
-
-
-
-
 }
 
-
-##We calculate the inverse of the matrix, if the object receveing has not defined yet, otherwise we return the cache data
+##We calculate the inverse of the matrix,
+## if the object receveing has not defined yet, otherwise we return the cache data
 
 
 cacheSolve <- function(x, ...) {
